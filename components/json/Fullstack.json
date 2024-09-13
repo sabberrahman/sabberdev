@@ -1,0 +1,23 @@
+[
+    {
+      "title": "Dashboard",
+      "description": "Modern Nextjs Dashboard for data management",
+      "image": "/photo/heroo.png",
+      "tags": ["Next.js", "PostegreSQl","TypeScript","Tailwind","Prisma"],
+      "liveLink": "https://shei-dashboard.vercel.app/"
+    },
+    {
+      "title": "CholBhai",
+      "description": "Create, Host & join any event seemlessly",
+      "image": "/",
+      "tags": ["nextJS", "typescript", "MongoDB","DizzleORM" ],
+      "liveLink": "https://cholbhai.vercel.app/"
+    },
+    {
+      "title": "Ecommerce Store",
+      "description": "Functional clothing store with sanity CMS",
+      "image": "/",
+      "tags": ["Next.js", "React", "Tailwind","SanityCMS", "Shadcn"],
+      "liveLink": "https://hypebeast-inky.vercel.app/"
+    }
+  ]

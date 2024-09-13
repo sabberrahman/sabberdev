@@ -1,0 +1,16 @@
+[
+    {
+      "title": "Luffy ai",
+      "description": "AI-powered web assistant using Next.js and NestJS",
+      "image": "/placeholder.svg?height=150&width=250",
+      "tags": ["Next.js", "NestJS", "AI"],
+      "liveLink": "https://example.com/ai-assistant"
+    },
+    {
+      "title": "Obidiant SASs",
+      "description": "Full-featured online store with user authentication and payment integration",
+      "image": "/placeholder.svg?height=150&width=250",
+      "tags": ["React", "Node.js", "MongoDB"],
+      "liveLink": "https://example.com/ecommerce"
+    }
+  ]
