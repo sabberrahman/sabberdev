@@ -12,12 +12,11 @@ function Projects() {
       <div>
         <h2 className="text-2xl font-bold mb-2 text-green-600 mt-1">Full Stack Projects</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-          {Fullstack.map((project) => (
+          {Fullstack.map((project,index) => (
             <ProjectCard
-              key={project.id}
+              key={index}
               title={project.title}
               description={project.description}
-              image={project.image}
               tags={project.tags}
               liveLink={project.liveLink}
             />
@@ -29,12 +28,11 @@ function Projects() {
       <div>
         <h2 className="text-2xl font-bold mb-4 text-green-600 mt-4">Frontend Projects</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-          {Frontend.map((project) => (
+          {Frontend.map((project,index) => (
             <ProjectCard
-              key={project.id}
+              key={index}
               title={project.title}
               description={project.description}
-              image={project.image}
               tags={project.tags}
               liveLink={project.liveLink}
             />
@@ -61,7 +59,7 @@ function ProjectCard({ title, description, image, tags, liveLink }) {
         <p className="text-gray-400 text-xs mb-2">{description}</p>
         <div className="flex flex-wrap gap-1 mb-2">
           {tags.map((tag, index) => (
-            <span key={tag.id} className="bg-gray-800 text-xs px-1.5 py-0.5 rounded">{tag}</span>
+            <span key={index} className="bg-gray-800 text-xs px-1.5 py-0.5 rounded">{tag}</span>
           ))}
         </div>
         <a href={liveLink} target="_blank" rel="noopener noreferrer" className="text-blue-400 text-sm flex items-center">
