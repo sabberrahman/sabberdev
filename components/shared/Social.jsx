@@ -1,6 +1,6 @@
 import React from 'react';
 import X from '@/public/icon/x'; // Custom icon
-import { Code2Icon, Github, LucideLinkedin, MailPlus } from 'lucide-react'; // Lucide icons
+import { Code2Icon, Github, LucideLinkedin, MailPlus, Twitter } from 'lucide-react'; // Lucide icons
 // const socialLinks = [
 //     { href: 'mailto:sabberrahman.contact@gmail.com', icon: Mail, label: 'Mail' },
 //     { href: 'https://www.linkedin.com/in/sabberrahman', icon: Linkedin, label: 'LinkedIn' },
@@ -33,7 +33,7 @@ function Social() {
           className="flex items-center space-x-2 text-gray-700 hover:text-blue-500 transition-colors duration-300"
           target='_blank'
         >
-          <X className="text-xl" />
+          <Twitter className="text-xl w-8 h-8" />
         </a>
         <a
           href="mailto:sabberrahman.contact@gmail.com"
