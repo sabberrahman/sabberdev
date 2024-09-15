@@ -5,9 +5,9 @@ import { TypeAnimation } from 'react-type-animation';
   return (
     <TypeAnimation
       sequence={[
-        // Same substring at the start will only be typed out once, initially
+        
         'Website',
-        1000, // wait 1s before replacing "Mice" with "Hamsters"
+        1000, // wait 1s before replacing "website" with "design"
         'Design',
         1000,
         'Experience',

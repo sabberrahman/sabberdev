@@ -1,12 +1,7 @@
 import React from 'react';
-import X from '@/public/icon/x'; // Custom icon
-import { Code2Icon, Github, LucideLinkedin, MailPlus, Twitter } from 'lucide-react'; // Lucide icons
-// const socialLinks = [
-//     { href: 'mailto:sabberrahman.contact@gmail.com', icon: Mail, label: 'Mail' },
-//     { href: 'https://www.linkedin.com/in/sabberrahman', icon: Linkedin, label: 'LinkedIn' },
-//     { href: 'https://x.com/sabberdev', icon: X, label: 'Twitter' },
-//     { href: 'https://github.com/sabberrahman', icon: Code2Icon, label: 'Github' },
-//   ];
+import X from '@/public/icon/x'; // Custom icon but didnt used 
+import { Code2Icon, Github, LucideLinkedin, MailPlus, Twitter } from 'lucide-react'; 
+
 function Social() {
   
   return (
@@ -48,3 +43,11 @@ function Social() {
 }
 
 export default Social;
+
+// if you want to map all data!! i avoided it cause i was getting bugs it was nothing serious but you can just map all this ezyle.100Xdev
+// const socialLinks = [
+//     { href: 'mailto:sabberrahman.contact@gmail.com', icon: Mail, label: 'Mail' },
+//     { href: 'https://www.linkedin.com/in/sabberrahman', icon: Linkedin, label: 'LinkedIn' },
+//     { href: 'https://x.com/sabberdev', icon: X, label: 'Twitter' },
+//     { href: 'https://github.com/sabberrahman', icon: Code2Icon, label: 'Github' },
+//   ];

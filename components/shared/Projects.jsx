@@ -6,9 +6,9 @@ import { ExternalLink } from 'lucide-react';
 
 function Projects() {
   return (
-    <div>
+    <div> 
 
-      {/* Full Stack Projects Section */}
+      {/* Full Stack Projects Section || json file is in componets>json>data! */}
       <div>
         <h2 className="text-2xl font-bold mb-2 text-green-600 mt-1">Full Stack Projects</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">

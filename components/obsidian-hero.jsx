@@ -38,7 +38,7 @@ export default function Hero() {
           <Social/>
         {/* front & back end */}
           <Projects/>
-      
+      {/* dev.to or hashnode vlog fetch */}
           <Blog/>
         </div>
     </div>
